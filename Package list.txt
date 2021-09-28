@@ -1,0 +1,18 @@
+MATLAB CODE PACKAGE LIST for DIAMOND signal analysis
+
+1. Nanobubble signal analysis flow chart: Nanobubble signal analysis flow chart.PNG 
+2. Nanobubble signal analysis code： sig_ampl_auc.m
+3. Demos/signal raw data for control sample: 1. SignalDemo_Ctrl
+4. Demos/signal raw data for virus sample: 2. SignalDemo_Target
+5. Expected output 1: 1. Ctrl_amplitude.csv
+6. Expected output 2: 1. Ctrl_area under the curve.csv
+7. Expected output 3: 1. Control_scatter plot.tif
+8. Expected output 4: 2. target_amplitude.csv
+9. Expected output 5: 2. target_area under the curve.csv
+10.Expected output 6: 2. Target_scatter plot.tif
+
+MATLAB CODE PACKAGE LIST for Well intensity reading
+
+1. Well intensity reading chart: Well intensity reading chart.PNG 
+2. Well intensity reading code: reader01.m
+3. Demos/Well intensity reading sample: Demos_Well intensity

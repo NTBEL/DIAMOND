@@ -1,0 +1,37 @@
+===================
+System requirements 
+===================
+
+The code was developed under Matlab R2021a with windows 10. Mac version can be also used. 
+
+==================
+Installation guide
+==================
+
+To get started with standard installation:
+
+Obtain a software license or trial from the MathWorks Store or your administrator.
+
+Download the installer from MathWorks Downloads.
+
+Run the installer. For standard installation, see Install Products Using Internet Connection. For other options, see Install Products.
+
+For information on license offerings, deployment rights, and Software Maintenance Service, see the Program Offering Guide.
+
+=======================================
+Path to DIAMOND data analysis directory 
+=======================================
+
+To use the DIAMOND data analysis code, you must add the data folder directory to the Matlab path at the beginning of the session, e.g. by calling
+
+  >> addpath( genpath( 'DIAMOND DIR' ) );
+
+Noted that DIAMOND DIR is the *full* directory name of the DIAMOND Data.
+We provided a small data set to demo the code. Please download the demo files provided along with the package.
+
+=======================================
+Path to Well intensity read
+=======================================
+
+To use the Well intensity read code, you must add the path of the image to the Matlab code: 
+f=imread('image path');
